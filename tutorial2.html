@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym Project</title>
+    <style>
+        body {
+            background-image: url("bg.jpg.jpg") ;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .left {
+
+            display: inline-block;
+            margin: 5px;
+            padding: 5px;
+
+        }
+
+        .mid {
+
+            position: absolute;
+            width: 572px;
+            right: 544px;
+            margin: -111px;
+
+
+        }
+
+        .right {
+
+            position: absolute;
+            right: 150px;
+            width: 211px;
+            margin: -100px;
+
+
+
+        }
+
+        .left img {
+            height: 98px;
+            width: 151px;
+            filter: invert(100%);
+
+        }
+
+        .neha {
+            font-weight: bold;
+            color: black;
+            font-size: 22px;
+
+        }
+
+        .mid li {
+
+            display: inline;
+        }
+
+        .mid li a {
+            text-decoration: none;
+            padding: 4px;
+            margin: 5px;
+            color: black;
+            font-size: 22px;
+        }
+
+        .mid li a:hover {
+            background-color: grey;
+        }
+
+        .btn button {
+            border: 2px solid black;
+            border-radius: 22px;
+            padding: 8px;
+            margin: 6px;
+            color: black;
+            background-color: gray;
+            cursor: pointer
+        }
+        h1{
+            justify-content: center;
+        }
+
+        .formgroup input {
+           text-align: center;
+            padding: 10px;
+            margin: 10px 100px;
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 290px;
+            cursor: pointer;
+        }
+
+        .formgroup {
+           /* border: 2px Solid Black;*/
+            width: 575px;
+            height: 500px;
+            display: inline-block;
+            margin: 10px 100px;
+        }
+        .formgroup button{
+           
+            text-align: center;
+            padding: 10px;
+            margin: 10px 100px;
+            border: 2px solid rgb(159, 79, 79);
+            border-radius: 5px;
+            width: 310px;
+            background-color: gray;
+            font-weight: bold;
+            color: black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="comtainer">
+        <div class="left">
+            <img src="logo.png.png" alt="">
+            <div class="neha">Neha Fittness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <div class="btn"><button>Email Us</button>
+                <button>Join Us</button>
+
+            </div>
+        </div>
+    </div>
+    <div class="formgroup">
+        <form action="action/page.php" method="get">
+        <h1>Join the Best Gym In Delhi NCR</h1>
+        <input type="text" placeholder="Enter your Name "> <br>
+        <input type="text" placeholder="Enter your age"><br>
+        <input type="text" placeholder="Enter your location"><br>
+        <input type="text" placeholder="Enter your Area"><br>
+        <input type="text" placeholder="Enter your Contact"><br>
+        <input type="text" placeholder="Enter your Email"><br>
+        <!-- <input type="submit" value="Submit">  -->
+        <button>Submit</button>
+    </form>
+
+    </div>
+
+</body>
+
+</html>
